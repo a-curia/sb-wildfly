@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class IndexController {
 
-	@RequestMapping(value = { "/", "" })
+	@RequestMapping("/")
 	public String hello() {
 
 		return "Hello from WildFly  JavaEEContainer!";
